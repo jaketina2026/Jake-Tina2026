@@ -1,4 +1,32 @@
-<div style="width: 1440px; height: 791px; position: relative; background: #BFCCDC; overflow: hidden">
-  <div style="left: 390px; top: 244px; position: absolute; color: #1E1E1E; font-size: 128px; font-family: Inria Serif; font-weight: 400; word-wrap: break-word">Jake & Tina</div>
-  <div style="left: 513px; top: 410px; position: absolute; color: #BFCCDC; font-size: 40px; font-family: Source Sans Pro; font-weight: 400; word-wrap: break-word">Sunday, 25 October 2026</div>
+<style>
+  .hero {
+    height: 100vh;
+    background: #BFCCDC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-family: 'Inria Serif', serif;
+    font-size: 4rem;
+    color: #1E1E1E;
+    margin: 0;
+  }
+
+  .hero p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.5rem;
+    color: #BFCCDC;
+    margin-top: 1rem;
+  }
+</style>
+
+<link href="https://fonts.googleapis.com/css2?family=Inria+Serif&family=Source+Sans+Pro:wght@400&display=swap" rel="stylesheet">
+
+<div class="hero">
+  <h1>Jake & Tina</h1>
+  <p>Sunday, 25 October 2026</p>
 </div>
