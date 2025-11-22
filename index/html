@@ -1,32 +1,39 @@
-<style>
-  .hero {
-    height: 100vh;
-    background: #BFCCDC;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .hero h1 {
-    font-family: 'Inria Serif', serif;
-    font-size: 4rem;
-    color: #1E1E1E;
-    margin: 0;
-  }
-
-  .hero p {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 1.5rem;
-    color: #BFCCDC;
-    margin-top: 1rem;
-  }
-</style>
-
-<link href="https://fonts.googleapis.com/css2?family=Inria+Serif&family=Source+Sans+Pro:wght@400&display=swap" rel="stylesheet">
-
-<div class="hero">
-  <h1>Jake & Tina</h1>
-  <p>Sunday, 25 October 2026</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wedding Test</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inria+Serif&family=Source+Sans+Pro:wght@400&display=swap" rel="stylesheet">
+  <style>
+    .hero {
+      height: 100vh;
+      background: #BFCCDC;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-family: 'Inria Serif', serif;
+      font-size: 4rem;
+      color: #1E1E1E;
+      margin: 0;
+    }
+    .hero p {
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 1.5rem;
+      color: #1E1E1E;
+      opacity: 0.6;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Jake & Tina</h1>
+    <p>Sunday, 25 October 2026</p>
+  </div>
+</body>
+</html>
